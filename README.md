@@ -65,3 +65,8 @@ Note: only bitmap fonts in the .otb format work. Don't even try with others.
 - ```flatpak install mediawriter```
 ### From anywhere else
 - [getfedora.org]()
+
+## Installing from Snap
+- ```sudo dnf install snapd```
+- ```sudo ln -s /var/lib/snapd/snap /snap```
+- ```sudo snap install code --classic``` etc etc
