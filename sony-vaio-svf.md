@@ -34,8 +34,8 @@ Then you discover that with the latest versions of Firefox, you can't install GN
 - Open the tweak tools. the extension will be there.
 
 # Fedora 35
-## Keyboard not working
-See above
+## Keyboard not working after waking from sleep
+Click on the "all users" button at the bottom right, then click on your user again, and the keyboard will work. I don't know why that happens.
 
 ## Wi-Fi and Bluetooth not working
 - ```sudo dnf -y install https://github.com/UnitedRPMs/unitedrpms/releases/download/19/unitedrpms-$(rpm -E %fedora)-19.fc$(rpm -E %fedora).noarch.rpm```
