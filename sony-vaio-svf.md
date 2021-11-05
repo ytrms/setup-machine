@@ -37,8 +37,13 @@ Then you discover that with the latest versions of Firefox, you can't install GN
 ## Keyboard not working
 See above
 
-## Wi-Fi not working
-Welcome to painville.
+## Wi-Fi and Bluetooth not working
+- ```sudo dnf -y install https://github.com/UnitedRPMs/unitedrpms/releases/download/19/unitedrpms-$(rpm -E %fedora)-19.fc$(rpm -E %fedora).noarch.rpm```
+- ```sudo dnf install broadcom-wl-dkms broadcom-bt-firmware```
+
+The system will see wireless connections around you but when you try to connect, it'll say it can't. Turn off your "wired" connection and it'll work. I don't know why this works.
+
+If that for some reason stops working, welcome to painville.
 Try this?
 
 https://github.com/UnitedRPMs/unitedrpms.github.io/blob/master/README.md
