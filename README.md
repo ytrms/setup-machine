@@ -1,7 +1,11 @@
 Just trying to save myself some headaches in the future.
 
+For device-specific problems, check the other files in this repo ([Sony Vaio SVF](sony-vaio-svf.md)) for example.
+
 - [General](#general)
   - [Install gh to make GitHub authentication easier](#install-gh-to-make-github-authentication-easier)
+  - [Is there a good, working, and supported way to mount Google Drive as a volume on GNU/linux distros?](#is-there-a-good-working-and-supported-way-to-mount-google-drive-as-a-volume-on-gnulinux-distros)
+  - [Automatically switch between light and dark mode on GNOME](#automatically-switch-between-light-and-dark-mode-on-gnome)
 - [Ubuntu 20.04](#ubuntu-2004)
   - [Installing Ubuntu](#installing-ubuntu)
     - [From Debian-based distros](#from-debian-based-distros)
@@ -15,11 +19,20 @@ Just trying to save myself some headaches in the future.
 
 # General
 ## Install gh to make GitHub authentication easier
+- ```sudo apt install curl```
 - ```curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo gpg --dearmor -o /usr/share/keyrings/githubcli-archive-keyring.gpg```
 - ```echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null```
 - ```sudo apt update```
 - ```sudo apt install gh```
 - ```gh auth login```
+
+## Is there a good, working, and supported way to mount Google Drive as a volume on GNU/linux distros?
+No. ```google-drive-ocamlfuse``` is the best we've got so far. Guide to install it [here](https://www.xmodulo.com/mount-google-drive-linux.html).
+
+## Automatically switch between light and dark mode on GNOME
+- https://extensions.gnome.org/extension/2236/night-theme-switcher/
+
+To install, follow the steps in [sony-vaio-svf.md](sony-vaio-svf.md).
 
 # Ubuntu 20.04
 ## Installing Ubuntu
