@@ -40,6 +40,9 @@ See above
 ## Wi-Fi not working
 Welcome to painville.
 Try this?
+
+https://github.com/UnitedRPMs/unitedrpms.github.io/blob/master/README.md
+
 https://unitedrpms.sourceforge.io/32/x86_64/repoview/broadcom-wl-dkms.html
 
 If that doesn't work, try this?
