@@ -1,18 +1,16 @@
 - [General](#general)
-  - [Install gh to make GitHub authentication easier](#install-gh-to-make-github-authentication-easier)
 - [Ubuntu 20.04](#ubuntu-2004)
-  - [Installing Ubuntu](#installing-ubuntu)
-    - [From Debian-based distros](#from-debian-based-distros)
-    - [From anywhere else](#from-anywhere-else)
   - [Fix keyboard not working after opening the lid](#fix-keyboard-not-working-after-opening-the-lid)
-  - [Telegram and VSCode](#telegram-and-vscode)
-  - [Fix bitmap fonts not working](#fix-bitmap-fonts-not-working)
 - [Fedora 35](#fedora-35)
-  - [Installing Fedora](#installing-fedora)
-    - [From Debian-based distros](#from-debian-based-distros-1)
-    - [From anywhere else](#from-anywhere-else-1)
   - [Keyboard not working](#keyboard-not-working)
   - [Wi-Fi not working](#wi-fi-not-working)
+
+# General
+The device's wireless adapter's drivers are proprietary.
+
+Wireless adapter: ```Broadcom BCM43142 802.11b.g/n```
+
+In apt, it's found at bcmwl-kernel-source.
 
 # Ubuntu 20.04
 ## Fix keyboard not working after opening the lid
@@ -40,5 +38,15 @@ Then you discover that with the latest versions of Firefox, you can't install GN
 See above
 
 ## Wi-Fi not working
-On Ubuntu, If you check the "Third-party drivers" option while installing, you should be good. If you don't, plug via ethernet and install bcmwl-kernel-source. Or open "Additional Drivers" and you should be able to install them from there.
+Welcome to painville.
+Try this?
+https://unitedrpms.sourceforge.io/32/x86_64/repoview/broadcom-wl-dkms.html
+
+If that doesn't work, try this?
+https://forums.fedoraforum.org/showthread.php?325107-HELP-Broadcom-wifi-(BCM43142)-not-working-in-Fedora-33-WS
+
+If that doesn't work, try this?
+
+https://forums.fedoraforum.org/showthread.php?303933-broadcom-wl-installed-but-wl-not-found&s=dbe3b6715167ab93894ff7d4c16dd543&p=1790476#post1790476
+
 

@@ -6,6 +6,7 @@ For device-specific problems, check the other files in this repo ([Sony Vaio SVF
   - [Install gh to make GitHub authentication easier](#install-gh-to-make-github-authentication-easier)
   - [Is there a good, working, and supported way to mount Google Drive as a volume on GNU/linux distros?](#is-there-a-good-working-and-supported-way-to-mount-google-drive-as-a-volume-on-gnulinux-distros)
   - [Automatically switch between light and dark mode on GNOME](#automatically-switch-between-light-and-dark-mode-on-gnome)
+  - [Install syncthing](#install-syncthing)
 - [Ubuntu 20.04](#ubuntu-2004)
   - [Installing Ubuntu](#installing-ubuntu)
     - [From Debian-based distros](#from-debian-based-distros)
@@ -34,6 +35,9 @@ No. ```google-drive-ocamlfuse``` is the best we've got so far. Guide to install 
 
 To install, follow the steps in [sony-vaio-svf.md](sony-vaio-svf.md).
 
+## Install syncthing
+- https://syncthing.net/downloads/
+
 # Ubuntu 20.04
 ## Installing Ubuntu
 ### From Debian-based distros
@@ -43,7 +47,7 @@ To install, follow the steps in [sony-vaio-svf.md](sony-vaio-svf.md).
 uNetBootin
 
 ## Installing Telegram and VSCode
-Install from snap. ```snap install code --classic``` and ```snap install telegram-desktop```.
+Install from snap. ```sudo snap install code --classic``` and ```sudo snap install telegram-desktop```.
 
 ## Fix bitmap fonts not working
 - ```rm /etc/fonts/conf.d/70-no-bitmaps.conf```
