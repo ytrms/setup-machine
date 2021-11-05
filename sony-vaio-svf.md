@@ -10,9 +10,9 @@ The device's wireless adapter's drivers are proprietary.
 
 Wireless adapter: ```Broadcom BCM43142 802.11b.g/n```
 
-In apt, it's found at bcmwl-kernel-source.
-
 # Ubuntu 20.04
+Wi-Fi should work if you install with ethernet attached, but if it doesn't, ```sudo apt install bcmwl-kernel-source```.
+
 ## Fix keyboard not working after opening the lid
 - ```sudo nano /etc/default/grub```
 - append ```GRUB_CMDLINE_LINUX_DEFAULT="i8042.direct i8042.dumbkbd"``` to the file
@@ -44,17 +44,11 @@ See above
 The system will see wireless connections around you but when you try to connect, it'll say it can't. Turn off your "wired" connection and it'll work. I don't know why this works.
 
 If that for some reason stops working, welcome to painville.
-Try this?
 
-https://github.com/UnitedRPMs/unitedrpms.github.io/blob/master/README.md
-
-https://unitedrpms.sourceforge.io/32/x86_64/repoview/broadcom-wl-dkms.html
-
-If that doesn't work, try this?
+Try this:
 https://forums.fedoraforum.org/showthread.php?325107-HELP-Broadcom-wifi-(BCM43142)-not-working-in-Fedora-33-WS
 
-If that doesn't work, try this?
-
+If that doesn't work, try this:
 https://forums.fedoraforum.org/showthread.php?303933-broadcom-wl-installed-but-wl-not-found&s=dbe3b6715167ab93894ff7d4c16dd543&p=1790476#post1790476
 
 
