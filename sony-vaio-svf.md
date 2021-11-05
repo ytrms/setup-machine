@@ -51,4 +51,5 @@ https://forums.fedoraforum.org/showthread.php?325107-HELP-Broadcom-wifi-(BCM4314
 If that doesn't work, try this:
 https://forums.fedoraforum.org/showthread.php?303933-broadcom-wl-installed-but-wl-not-found&s=dbe3b6715167ab93894ff7d4c16dd543&p=1790476#post1790476
 
-
+## Getting openh264 crashes on Firefox
+This solves it: https://www.osradar.com/install-openh264-fedora-33/
