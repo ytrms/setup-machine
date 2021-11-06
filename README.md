@@ -19,14 +19,6 @@ For device-specific problems, check the other files in this repo ([Sony Vaio SVF
     - [From anywhere else](#from-anywhere-else-1)
 
 # General
-## Install gh to make GitHub authentication easier
-- ```sudo apt install curl```
-- ```curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo gpg --dearmor -o /usr/share/keyrings/githubcli-archive-keyring.gpg```
-- ```echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null```
-- ```sudo apt update```
-- ```sudo apt install gh```
-- ```gh auth login```
-
 ## Is there a good, working, and supported way to mount Google Drive as a volume on GNU/linux distros?
 No. ```google-drive-ocamlfuse``` is the best we've got so far. Guide to install it [here](https://www.xmodulo.com/mount-google-drive-linux.html).
 
@@ -56,6 +48,14 @@ Install from snap. ```sudo snap install code --classic``` and ```sudo snap insta
 - ```dpkg-reconfigure fontconfig```
 
 Note: only bitmap fonts in the .otb format work. Don't even try with others.
+
+## Install gh to make GitHub authentication easier
+- ```sudo apt install curl```
+- ```curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo gpg --dearmor -o /usr/share/keyrings/githubcli-archive-keyring.gpg```
+- ```echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null```
+- ```sudo apt update```
+- ```sudo apt install gh```
+- ```gh auth login```
 
 # Fedora 35
 ## Installing Fedora
