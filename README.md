@@ -6,6 +6,7 @@ For device-specific problems, check the other files in this repo ([Sony Vaio SVF
   - [Is there a good, working, and supported way to mount Google Drive as a volume on GNU/linux distros?](#is-there-a-good-working-and-supported-way-to-mount-google-drive-as-a-volume-on-gnulinux-distros)
   - [Automatically switch between light and dark mode on GNOME](#automatically-switch-between-light-and-dark-mode-on-gnome)
   - [Install syncthing](#install-syncthing)
+  - [Set up iCloud mail](#set-up-icloud-mail)
 - [Ubuntu 20.04](#ubuntu-2004)
   - [Installing Ubuntu](#installing-ubuntu)
     - [From Debian-based distros](#from-debian-based-distros)
@@ -22,7 +23,7 @@ For device-specific problems, check the other files in this repo ([Sony Vaio SVF
 
 # General
 ## Is there a good, working, and supported way to mount Google Drive as a volume on GNU/linux distros?
-No. ```google-drive-ocamlfuse``` is the best we've got so far. Guide to install it [here](https://www.xmodulo.com/mount-google-drive-linux.html).
+Meh, kind of. rclone gets the job done. Config here: https://rclone.org/drive/
 
 ## Automatically switch between light and dark mode on GNOME
 - https://extensions.gnome.org/extension/2236/night-theme-switcher/
@@ -31,6 +32,9 @@ To install, follow the steps in [sony-vaio-svf.md](sony-vaio-svf.md).
 
 ## Install syncthing
 - https://syncthing.net/downloads/
+
+## Set up iCloud mail
+- https://support.apple.com/en-us/HT202304
 
 # Ubuntu 20.04
 ## Installing Ubuntu
