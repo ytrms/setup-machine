@@ -18,6 +18,7 @@ For device-specific problems, check the other files in this repo ([Sony Vaio SVF
     - [From Debian-based distros](#from-debian-based-distros-1)
     - [From anywhere else](#from-anywhere-else-1)
   - [Installing from Snap](#installing-from-snap)
+- [Enable verbose boot and shutdown](#enable-verbose-boot-and-shutdown)
 
 # General
 ## Is there a good, working, and supported way to mount Google Drive as a volume on GNU/linux distros?
@@ -71,3 +72,7 @@ Note: only bitmap fonts in the .otb format work. Don't even try with others.
 - ```sudo dnf install snapd```
 - ```sudo ln -s /var/lib/snapd/snap /snap```
 - ```sudo snap install code --classic``` etc etc
+
+# Enable verbose boot and shutdown
+- Remove "quiet" from ```/etc/default/grub```
+- Update grub with ```grub2-mkconfig -o "$(readlink -e /etc/grub2.conf)"```
