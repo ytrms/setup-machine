@@ -1,14 +1,19 @@
 - [General](#general)
+  - [Disable touchpad when an external mouse is attached (GNOME)](#disable-touchpad-when-an-external-mouse-is-attached-gnome)
 - [Ubuntu 20.04](#ubuntu-2004)
   - [Fix keyboard not working after opening the lid](#fix-keyboard-not-working-after-opening-the-lid)
 - [Fedora 35](#fedora-35)
-  - [Keyboard not working](#keyboard-not-working)
-  - [Wi-Fi not working](#wi-fi-not-working)
+  - [Keyboard not working after waking from sleep](#keyboard-not-working-after-waking-from-sleep)
+  - [Wi-Fi and Bluetooth not working](#wi-fi-and-bluetooth-not-working)
+  - [Getting openh264 crashes on Firefox](#getting-openh264-crashes-on-firefox)
 
 # General
 The device's wireless adapter's drivers are proprietary.
 
 Wireless adapter: ```Broadcom BCM43142 802.11b.g/n```
+
+## Disable touchpad when an external mouse is attached (GNOME)
+```gsettings set org.gnome.desktop.peripherals.touchpad send-events 'disabled-on-external-mouse'```
 
 # Ubuntu 20.04
 Wi-Fi should work if you install with ethernet attached, but if it doesn't, ```sudo apt install bcmwl-kernel-source```.

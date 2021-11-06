@@ -3,7 +3,6 @@ Just trying to save myself some headaches in the future.
 For device-specific problems, check the other files in this repo ([Sony Vaio SVF](sony-vaio-svf.md)) for example.
 
 - [General](#general)
-  - [Install gh to make GitHub authentication easier](#install-gh-to-make-github-authentication-easier)
   - [Is there a good, working, and supported way to mount Google Drive as a volume on GNU/linux distros?](#is-there-a-good-working-and-supported-way-to-mount-google-drive-as-a-volume-on-gnulinux-distros)
   - [Automatically switch between light and dark mode on GNOME](#automatically-switch-between-light-and-dark-mode-on-gnome)
   - [Install syncthing](#install-syncthing)
@@ -13,10 +12,12 @@ For device-specific problems, check the other files in this repo ([Sony Vaio SVF
     - [From anywhere else](#from-anywhere-else)
   - [Installing Telegram and VSCode](#installing-telegram-and-vscode)
   - [Fix bitmap fonts not working](#fix-bitmap-fonts-not-working)
+  - [Install gh to make GitHub authentication easier](#install-gh-to-make-github-authentication-easier)
 - [Fedora 35](#fedora-35)
   - [Installing Fedora](#installing-fedora)
     - [From Debian-based distros](#from-debian-based-distros-1)
     - [From anywhere else](#from-anywhere-else-1)
+  - [Installing from Snap](#installing-from-snap)
 
 # General
 ## Is there a good, working, and supported way to mount Google Drive as a volume on GNU/linux distros?
